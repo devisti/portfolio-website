@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.main-container {
+    width: 100%;
+    padding: 3% 10%;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.para-container {
+    margin-top: 5%;
+}
+
+.para-container p {
+    padding-left: 11px;
+    padding-top: 4px;
+}
+
+.projects-wrapper {
+    margin-top: 5%;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    padding: 0 5%;
+}
+
+.apple-project-container {
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+
+.cell-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.cell-2,
+.cell-3,
+.cell-4 {
+    padding: 10px;
+}
+
+.cell-2 img,
+.cell-3 img,
+.cell-4 img {
+    width: 100%;
+}
+
+.cell-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/4;
+    grid-row: 3/4;
+    column-gap: 10px;
+}
+
+.netflix-project-container {
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+
+.netflix-cell-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.netflix-cell-2,
+.netflix-cell-3,
+.netflix-cell-4 {
+    padding: 10px;
+}
+
+.netflix-cell-2 img,
+.netflix-cell-3 img,
+.netflix-cell-4 img {
+    width: 100%;
+}
+
+.netflix-cell-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/4;
+    grid-row: 3/4;
+    column-gap: 10px;
+}
+
+.projects-container a {
+    text-decoration: none;
+    color: #8d0a0a;
+}
+
+.projects-container a:hover {
+    color: #4fc3f7;
+    text-decoration: underline;
+}
+
+.socialM-wrapper {
+    margin-top: 5%;
+}
+
+.socialM-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 11px;
+}
+
+.socialM-container a {
+    text-decoration: none;
+    color: #8d0a0a;
+}
+
+.socialM-container a:hover {
+    color: #4fc3f7;
+}
+
+.footer {
+    margin-top: 5%;
+}
+
+.footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
